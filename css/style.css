@@ -1,0 +1,364 @@
+/* trocar a cor do preto e a cor do branco do site VV */
+:root {
+  color: #343a40;
+  background-color: #f9f8f3;
+  font-family: Inter;
+  height: 100%;
+}
+
+/* retirar as margens padrão e definir a fonte do site. */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+/* alinhar o site 100% */
+
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* menu header */
+
+nav {
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+li {
+  text-align: center;
+  display: inline;
+  padding: 5px;
+  margin: 50px;
+}
+
+header {
+  font-size: 1.2rem;
+  border: 1.5px #e0e0e0;
+  border-top: 0px;
+  border-style: dashed solid;
+}
+
+header a {
+  text-decoration: none;
+  color: #691c12;
+  padding: 5px 10px;
+  /* transicao quando passa o mouse em cima, junto com o hover*/
+  transition: 0.4s;
+}
+
+header a:hover {
+  color: #f75b39;
+}
+
+/* Principal */
+
+main {
+  /* fixa o rodape no final da pag*/
+  flex: 1;
+  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/*links principais */
+main a {
+  text-decoration: none;
+  color: #691c12;
+  transition: 0.4s;
+}
+
+main a:hover {
+  color: #f75b39;
+}
+
+/*imagens das lingaugens */
+
+#languages {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+#languages li {
+  margin: 0 3.5px;
+  padding: 0;
+}
+#languages img {
+  width: auto;
+  height: 37px;
+}
+
+/* Rodapé */
+
+footer {
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #691c12;
+  padding: 20px;
+  top: 240px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+
+}
+
+footer a:hover {
+  color: #f75b39;
+}
+
+/* chatice */
+
+.index-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-main .btn {
+  background-color: #691c12;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.index-main .btn:hover {
+  background-color: #f75b39;
+}
+
+.tech-stack{
+  margin-top: 30px;
+}
+
+.intro h1{
+  font-size: 5.5rem;
+}
+.intro p {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
+.intro em {
+  color: #691c12;
+}
+
+
+/* Principal pag portfolio */
+
+.portfolio-main {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.portfolio-main img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+.portfolio-main h1 {
+  font-size: 4.5rem;
+}
+.portfolio-main h2 {
+  font-size: 2.8rem;
+  color: #691c12;
+}
+.portfolio-main h3 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+.portfolio-main p {
+  font-size: 1.25rem;
+}
+
+/* principal pag novidades */
+
+.news-main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.news-main img {
+  display: inline-block;
+  margin: 20px 0px;
+  max-width: 30%;
+  width: auto;
+  height: auto;
+}
+.news-main h1 {
+  font-size: 4.5rem;
+}
+.news-main h2 {
+  font-size: 2.8rem;
+  color: #691c12;
+  margin-top: 0px;
+}
+.news-main h3 {
+  font-size: 1.8rem;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.news-main h4 {
+  font-size: 1.6rem;
+  color: #691c12;
+  margin-top: 20px;
+}
+.news-main p {
+  font-size: 1.35rem;
+}
+.news-main .intro2 p {
+  font-size: 1.1rem;
+}
+
+
+
+
+
+/* principal pag contato */
+
+.contact-main {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  
+}
+.contact-main h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.contact-main h3 {
+  font-size: 2rem;
+  margin-top: 50px;
+}
+
+/*icones das redes */
+
+#socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; 
+  padding: 0;
+  margin-top: 20px;
+}
+#socials li {
+  margin: 0 3.5px;
+  padding: 0;
+}
+#socials img {
+  margin-top: 50px;
+  width: auto;
+  height: 40px;
+}
+/* formulario pag contato */
+
+.contact-main form {
+  background: white;
+  padding: 20px;
+  /* tirar as quinas */
+  border-radius: 10px;
+  /* colocar pequena sombra */
+  box-shadow: 0px 0px 10px #0000001e;
+  /* VV Deixar o formulario em coluna */
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-main form label {
+  text-align: left;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-main form input,
+.contact-main form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1.5px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+/*botao do formulario */
+
+.contact-main form button {
+  margin-top: 15px;
+  padding: 10px;
+  /*tirar a parte preta da borda */
+  border: none;
+  border-radius: 50px;
+  /* botao vermelho */
+  color: white;
+  background-color: #691c12;
+  font-size: 1rem;
+  /* botao "clicavel" */
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contact-main form button:hover {
+  background-color: #f75b39;
+}
+
+
+.footer-contact {
+  display: flex;
+}
+
+.inspo {
+  text-align: left;
+}
+
+.inspo a {
+  color: white;
+}
+
+.inspo a:hover {
+  color: #f75b39;
+}
+
+.confirm-main {
+  font-size: 2rem;
+}
+
+.confirm-main h1 {
+  font-size: 5rem;
+}
+.confirm-main h3 {
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  margin-bottom: 3.5rem;
+}
