@@ -21,9 +21,9 @@ Trabalho para a faculdade que consiste em um website pessoal, com páginas refer
 ## Página Sobre 
 
 
-# Inspirações 🔗
+# Referências 🔗
 
-## Fonte e Paleta de cores
+## Paleta de cores
 [Museu Barroco](https://www.museubarroco.com/)
 
 ## Fonte
