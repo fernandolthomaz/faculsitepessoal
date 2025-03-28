@@ -32,3 +32,7 @@ Trabalho para a faculdade que consiste em um website pessoal, com páginas refer
 ## Ícones
 [Box icons](https://boxicons.com/)
 
+
+# Visite o site
+
+[Website Pessoal](https://fernandolthomaz.github.io/faculsitepessoal/)
