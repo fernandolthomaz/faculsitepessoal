@@ -161,14 +161,27 @@ footer a:hover {
 .intro h1{
   font-size: 5.5rem;
 }
-.intro p {
-  margin-top: 20px;
-  font-size: 1.6rem;
-}
+
 .intro em {
   color: #691c12;
 }
 
+.intro-p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.descricao {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 30px;
+  
+}
 
 /* Principal pag portfolio */
 
@@ -362,3 +375,25 @@ footer a:hover {
   font-size: 2.5rem;
   margin-bottom: 3.5rem;
 }
+
+
+/*  eu */
+
+#eu {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin: 20px auto;
+  display: block;
+  box-shadow: 0 4px 8px #343a4073;
+
+  /* transicao quando passa o mouse em cima*/
+  transition: transform 0.4s ease;
+}
+
+#eu:hover {
+  /* aumenta a imagem quando passa o mouse em cima */
+  transform: scale(1.03);
+}
+
