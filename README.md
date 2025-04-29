@@ -35,4 +35,4 @@ Trabalho para a faculdade que consiste em um website pessoal, com páginas refer
 
 # Visite o site
 
-[Website Pessoal](https://fernandolthomaz.github.io/faculsitepessoal/)
+[Website Pessoal](https://thomazip.github.io/faculsitepessoal/)
