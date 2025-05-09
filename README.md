@@ -19,6 +19,7 @@ Trabalho para a faculdade que consiste em um website pessoal, com páginas refer
 ![image](https://github.com/user-attachments/assets/8d77783e-1d49-4d15-989f-a50ffd5356a5)
 
 ## Página Sobre 
+![image](https://github.com/user-attachments/assets/7007276d-e758-436c-8755-f22c8e6ac15b)
 
 
 # Referências 🔗
